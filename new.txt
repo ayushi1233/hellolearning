@@ -1,1 +1,2 @@
 Hi I am learning the basics of git
+hello this is ayushi

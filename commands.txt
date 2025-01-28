@@ -1,0 +1,65 @@
+    1  git --version
+    2  git config --global --list
+    3  git config --global user.name "Ayushi"
+    4  git config --global user.email "ayushipriya1711@gmail.com"
+    5  git config --global --list
+    6  cd desktop
+    7  cd learngit
+    8  touch README.md
+    9  git init
+   10  git add .
+   11  git add README.md
+   12  git status
+   13  git commit -m "First commit" #The message in the " " is given so that the other users can read the message and see what changes you made
+   14  git reset HEAD~1
+   15  git reset HEAD~ 1
+   16  git status
+   17  git log
+   18  git reset HEAD~ 1
+   19  git reset HEAD~1
+   20  git log
+   21  git pull origin master
+   22  git status
+   23  git checkout master
+   24  git fetch --unshallow
+   25  git fsck
+   26  git commit -m "Second Commit"
+   27  git reset HEAD~1
+   28  git log
+   29  echo "Work" > new.txt
+   30  git add new.txt
+   31  git add -A new.txt
+   32  git commit -m "Updating"
+   33  git log
+   34  git reset HEAD~1
+   35  git push -u origin master
+   36  git push -u origin main
+   37  git push -u main master
+   38  git remote -v
+   39  git remote add origin https://github.com/ayushi1233/hellogit.git
+   40  git remote -v
+   41  git push -u origin master
+   42  git push -u main master
+   43  git push -u origin master
+   44  git pull origin master 
+   45  pwd
+   46  ls -larth
+   47  git add -A 
+   48  git commit -m "Update"
+   49  git push -u origin master
+   50  exit
+   51  cd Desktop
+   52  cd gitlearning
+   53  git init
+   54  echo "Hi I am learning the basics of git">new.txt
+   55  git commit -m "Initial commit"
+   56  git add new.txt
+   57  git commit -m "initial commit"
+   58  git remote add origin https://github.com/ayushi1233/hellolearning.git
+   59  git remote -v
+   60  git push -u origin master
+   61  git checkout -b new-feature
+   62  pwd
+   63  history > commands.txt
+   64  cat commands.txt 
+   65  history > commands.txt
